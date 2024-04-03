@@ -1,0 +1,28 @@
+Develop a Java program that implements a basic singly linked list and provides a user interface for interacting with the list. 
+The program should include three classes: Node, LinkedList & Main.
+
+The Node class should have two properties: data (an integer) and next (a reference to the next Node in the list). 
+The Node class should also have a constructor that accepts an integer, which is used to initialize the data property, and sets 
+the next property to null.
+
+The LinkedList class should have one property: head (a reference to the first Node in the list). The LinkedList class should 
+also have a constructor that initializes the head property to null.
+
+The LinkedList class should include three methods: add, remove, and display.
+
+The add method should accept an integer, create a new Node with that integer, and add the new Node to the end of the list. If the 
+list is empty (i.e., head is null), the new Node should become the head of the list. Otherwise, the method should iterate through the 
+list until it finds the last Node, and then set the next property of the last Node to the new Node.
+
+The remove method should accept an integer and remove the first Node in the list that contains that integer. If the list is empty 
+(i.e., head is null), the method should do nothing. If the head of the list contains the integer, the head should be set to the next 
+Node in the list. Otherwise, the method should iterate through the list until it finds the Node that contains the integer and then 
+remove that Node from the list. On deleting all the nodes in an existing linked list the head will point to null just as it was when 
+the Linked list was initialised. Printing the linked list in that case will print nothing.
+
+The display method should iterate through the list and print the data of each Node to the console. If the list is empty 
+(i.e., head is null), the method should print nothing.
+
+In the main method in class Main, a menu should be displayed to the user with the following options: Add, Remove, Display, and Exit. 
+The user should be prompted to enter a choice. Depending on the user's choice, the corresponding operation should be performed on the 
+list. If the user chooses Exit, the program should terminate.

@@ -1,0 +1,8 @@
+Develop a Java program that demonstrates the concept of exception chaining and custom exceptions. The program should include a 
+method named stringInput() that prompts the user to input a string. If the string is all capital letters, all small letters, or 
+contains more than one word (indicated by a space), a custom exception CustomException should be thrown with a specific message for 
+each case. If the string does not meet these conditions, print the string to the console. If a CustomException is thrown, catch it 
+and use it to initialize a new IOException with a specific message. This new exception should then be chained with the original 
+exception using the initCause method. The chained exception should then be thrown and caught in the main method, where the message of 
+the new exception and the original cause should be printed to the console.
+

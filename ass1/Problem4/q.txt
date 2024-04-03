@@ -1,0 +1,16 @@
+Implement a Java program with a Main class containing a main() method, which is responsible for the program's execution flow. 
+Take an integer array nums and an integer k as input from the user and it should invoke a method defined in a Solution class 
+named divide().
+
+This method takes an integer array nums and an integer k as parameters, and its goal is to split the nums array into k non-empty 
+subarrays such that the largest sum of any subarray is minimized.
+
+The method should return the minimized largest sum of the split. The result returned by the divide() method should be printed within 
+the main() method.
+
+Note a subarray is a contiguous part of the array.
+
+Constraints
+1 <= nums.length <= 100
+0 <= nums[i] <= 1000
+1 <= k <= min(50, nums.length)
