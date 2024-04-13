@@ -1,0 +1,31 @@
+Question 1
+
+Create a Generic Java class called Sorter which can take an array of Integers, Doubles or Strings in the constructor(s). 
+Write Lambda Expressions (block or single line) to define sorting for the array defined above:
+Sorting order is: Dictionary order for Strings, and ascending order for Integers or Doubles. 
+You may use any sorting algorithm(s). Execution time will be an evaluation criteria. You are not allowed to use any sorting functions 
+from pre-existing libraries. Pass the Lambda Expression as an argument to a Sorter.sort() method to execute the sorting. There should 
+be only one sort() method in the Sorter class.
+
+Input: 
+A filename will be passed as a commandline argument to the main method. The file will have the type of data mentioned in the first line. 
+In the second line the file will contain a space separated list of literals of the specified data type (all Strings will be one-word long)
+Example 1:
+Integer
+3 90 8 26 17
+
+Example 2:
+String
+BITS Hyderabad pilani dubai goa mumbai OOP
+
+Output:
+A space separated list of the sorted literals based on the sorting criteria for the data type. The output should not contain any leading 
+or trailing whitespaces.
+Example 1:
+3 8 26 90 127
+
+Example 2:
+BITS dubai goa Hyderabad mumbai OOP pilani
+
+Minimum number of items in the list: 1
+Maximum number of items in the list: 1000000
